@@ -15,7 +15,7 @@ export class TentativasComponent implements OnInit, OnChanges {
   ]
 
   constructor() {
-    console.log(this.coracoes)
+   
    }
 
   ngOnChanges(){
@@ -24,7 +24,7 @@ export class TentativasComponent implements OnInit, OnChanges {
 
       this.coracoes[indice -1].cheio = false
     }
-    console.log("tentativas recebidas pelo painel", this.tentativas)
+    
   }
 
   ngOnInit() {
